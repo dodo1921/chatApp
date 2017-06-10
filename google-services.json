@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "621606770656",
+    "firebase_url": "https://jewelchat-252f9.firebaseio.com",
+    "project_id": "jewelchat-252f9",
+    "storage_bucket": "jewelchat-252f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621606770656:android:c6b23c5869c7e75e",
+        "android_client_info": {
+          "package_name": "jewelchat.in.jewelchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621606770656-sgob80p5nl7c3epu151hhkh35t2udui3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jewelchat.in.jewelchat",
+            "certificate_hash": "4024022b6e49211c70212d03fa807372497118ef"
+          }
+        },
+        {
+          "client_id": "621606770656-urj8qvm4hpjidh5m69fsa0at4ku4ogj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq7t3chYuIcKXEWKHazj2yRjOiGSnJqJM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621606770656-urj8qvm4hpjidh5m69fsa0at4ku4ogj8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

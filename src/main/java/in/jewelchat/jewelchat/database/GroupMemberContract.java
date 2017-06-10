@@ -12,7 +12,7 @@ public class GroupMemberContract implements BaseColumns {
 	public static final String KEY_ROWID = BaseColumns._ID;
 	public static final String GROUP_ID = "groupId";// foreign key of the group/contact
 	public static final String JEWELCHAT_ID = "jewelChatId";
-	public static final String CURRENT_IMAGE_NUMBER = "currentImageNumber";
+	public static final String IMAGE = "currentImageNumber";
 	public static final String CONTACT_NUMBER = "contactNumber";
 	public static final String CONTACT_NAME = "contactName";
 	public static final String ISADMIN = "isAdmin";
@@ -26,7 +26,7 @@ public class GroupMemberContract implements BaseColumns {
 					KEY_ROWID + " integer PRIMARY KEY autoincrement," +
 					GROUP_ID + "  INTEGER" + ", " +
 					JEWELCHAT_ID + "  INTEGER" + ", " +
-					CURRENT_IMAGE_NUMBER + "  INTEGER" +  ", " +
+					IMAGE + "  TEXT" +  ", " +
 					CONTACT_NUMBER + "  INTEGER" + ", " +
 					ISADMIN + "  INTEGER" + ", " +
 					CONTACT_NAME + "  TEXT" + " )";
